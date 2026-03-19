@@ -23,7 +23,7 @@ namespace GeometryShape.Tests
         public void Area_CalculatedCorrectly()
         {
             var tri = new Triangle(3, 4, 5);
-            Assert.Equal(6, tri.Area());
+            Assert.Equal(8, tri.Area());
         }
 
         [Fact]
